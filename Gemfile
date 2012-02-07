@@ -8,6 +8,8 @@ gem 'rails', '3.2.1'
 group :development do
    gem 'sqlite3'
    gem 'rspec-rails'
+   gem 'execjs'
+   gem 'therubyracer'
 end
 
 group :test do
