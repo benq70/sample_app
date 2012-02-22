@@ -18,6 +18,10 @@ group :test do
    gem 'spork'
 end
 
+group :production do
+  gem 'therubyracer'
+  gem 'pg'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
